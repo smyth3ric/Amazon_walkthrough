@@ -1,0 +1,141 @@
+*{
+    /* border: 1px solid red; */
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+   
+    border-bottom: .7px solid black;
+}
+
+.box-container {
+    align-items: center;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 8px;
+    border: 1px solid lightgrey;
+}
+
+.signin {
+    font: 1.7em sans-serif;
+    margin-bottom: 9px;
+}
+
+.email {
+    font-size: smaller;
+    padding-bottom: 8px;
+}
+input {
+    border: none;
+}
+ input.click {
+    border: white;
+ }
+.email-input {
+    border: 1px solid black;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+.pass {
+    width: 45%;
+    font-size: smaller;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    
+}
+
+#forgot {
+    width: 50%;
+    text-align-last: right;
+    font-size: smaller;
+}
+
+.password {
+    border: 1px solid black;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+.continue {
+    background-color: rgb(244, 199, 17);
+    width: 100%;
+    padding: 4px;
+    border: .5px solid black;
+    margin-bottom: 20px;
+    
+}
+
+.needhelp {
+    font-size: smaller;
+    padding-left: 15px;
+}
+
+.line {
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+}
+
+#new {
+    width: 33%;
+    text-align: center;
+    font-size: smaller;
+    text-decoration:solid;
+    padding: 0%;
+    margin: 0%;
+}
+
+#linex1 {
+    font-size: x-small;
+    font-weight: lighter;
+    color: white;
+    text-decoration: line-through black;
+    text-align: right;
+    width: 30%;
+    
+}
+#linex2 {
+    text-align: left;
+    font-size: x-small;
+    font-weight: lighter;
+    color: white;
+    text-decoration: line-through black;
+    width: 30%;
+}
+
+.create {
+    background-color:rgb(226, 226, 226);
+    width: 320px;
+    padding: 4px;
+    border: .5px solid black;
+    margin: 20px;
+    margin-bottom: 40px;
+
+}
+
+footer {
+    text-align: center;
+    font-size: x-small;
+}
+
+ul{
+    padding: 20px;
+}
+li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+   
+}
